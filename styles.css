@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   align-items: center; 
+   height: 100vh;
+}
+
+.container {
+    border: 2px solid brown;
+    height: 400px;
+    width: 600px;
+    background-color: beige;
+    position: relative;
+    overflow: hidden;
+}
+
+.personagem {
+    height: 32px;
+    width: 32px;
+    background-image: url(img/cachorro\ ia3.jpg);
+    background-position: 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
