@@ -20,14 +20,14 @@ document.addEventListener("keydown", (e) => { // função com parâmetro e, que 
         }
             break;
         case "ArrowLeft": // seta p/esq
-        if(posX < 570) {
+        if(posX > 0) {
             posX -= passo;
             personagem.style.left = posX + 'px';
             personagem.style.backgroundPosition = '0px 0px'; 
         }
             break;
         case "ArrowRight": // seta p/dir
-        if(posX > 0) {
+        if(posX < 570) {
             posX += passo;
             personagem.style.left = posX + 'px';
             personagem.style.backgroundPosition = '0px 0px';
