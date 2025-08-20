@@ -23,9 +23,10 @@ body {
 .personagem {
     height: 32px;
     width: 32px;
-    background-image: url(img/cachorro\ ia3.jpg);
+    background-image: url(img/cachorro.jpg);
     background-position: 0 0;
     position: absolute;
     top: 0;
     left: 0;
+
 }
